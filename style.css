@@ -1,0 +1,29 @@
+.bookSection{
+display: flex;
+flex-direction: column;
+width: 400px;
+}
+.subtitle{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.books{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+width: 400px;
+overflow-x:scroll;
+}
+.book{
+display: flex;
+flex-direction: column;
+width: 100px;
+margin-right: 16px;
+}
+.bookImage{
+width: 100px;
+height: 150px;
+background-color: aliceblue
+}
